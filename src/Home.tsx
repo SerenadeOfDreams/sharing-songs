@@ -14,7 +14,7 @@ export function Home() {
       </p>
 
       <div className="flex gap-6">
-        <Card onClick={() => void navigate("/bands/Bands")} title="Artistas" />
+        <Card onClick={() => void navigate("/artists")} title="Artistas" />
         <Card
           onClick={() => void navigate("/albums/SongsByAlbum")}
           title="Músicas"
